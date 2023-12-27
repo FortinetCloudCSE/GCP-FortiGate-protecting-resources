@@ -1,12 +1,12 @@
 ---
-title: "Ch 3 - Hugo Publish "
+title: "Ch 3 - Automation"
 chapter: false
-menuTitle: "Ch 3: Publish"
+menuTitle: "Ch 3: Automation"
 weight: 30
 ---
 
-### ***Publish your content to GitHub pages via a GitHub action***
+### ***Use Terraform to Deploy and Configure Infrastructure***
 
-Now that you have your content first draft, push your repo to github, there's already a GitHub action to automatically publish your content anytime you upload to the repo
+This lab is intended for network administrators looking to integrate firewall management with DevOps practices and workflow. First part of the lab focuses on deploying a pair of FortiGate virtual appliances using Terraform and bootstrapping their configuration to automatically build a multi-zone HA cluster. Second part deploys a simple web application and leverages fortios terraform provider to include FortiGate configuration changes necessary to protect that application.
 
-Click the right arrow to go through each step individually
+All deployments and configuration are driven entirely by terraform code and do not require interactive log-in to FortiGate

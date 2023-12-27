@@ -1,23 +1,37 @@
 ---
-title: "Manual Hugo Build"
-menuTitle: "Legacy Hugo Build"
+title: "Clone Repo"
+menuTitle: "Clone Repo"
 chapter: false
 weight: 50
 ---
 
-### Hugo Build
+### Clone github repository
 
-When you're satisfied with Hugo view of your content in Hugo virtual server, issue a Hugo 'build' in the container CLI
+This lab is fully automated using [Terraform by Hashicorp](https://www.terraform.io/). Terraform is one of the most popular tools for managing cloud infrastructure as code (IaC). While each cloud platform offers its own native tools for IaC, Terraform uses a broad open ecosystem of providers allowing creating and managing resources in any platform equipped with a proper API. In this lab you will use [google provider](https://registry.terraform.io/providers/hashicorp/google/latest/docs) (by Google) to manage resources in Google Cloud and [fortios provider](https://registry.terraform.io/providers/fortinetdev/fortios/latest/docs) (by Fortinet) to manage FortiGate configuration.
 
-```shell
-    hugo --minify --cleanDestinationDir
+All code for this lab is hosted in a public git repository. To use it start by creating a local copy of its contents.
+
+1.	Run the following command in your Cloud Shell to clone the git repository contents:
+
+```sh
+    git clone https://github.com/fortidg/se-summit-23.git
 ```
-        
-   - This command "builds" your Hugo site into the container's **_/public_** folder.  We used a docker disk mount to map this folder back to your local **_/docs_** folder, so the Hugo website will automatically be copied back into your local repo
-   - flag '--cleanDestinationDir' tells hugo to re-write the entire output directory with its build, so it will clear out template files/anything else that may be in there
-   - You can now exit the container with **ctrl + cd**, or command: **'exit'**
-   - When you exit the container, any files stored or changes you made to the container will be lost and cannot be recovered
-     - **_Remember_** we edited the /content folder on our local OS, so those changes were not made to the container and will not be lost
-     - Further, the disk mount from local's **_/docs_** to Container's **_public_** AUTOMATICALLY writes the hugo build to your local OS, so those changes will not be lost
-     - If you need to continue editing, just run a new container from your built image, and run hugo's webserver.  Everything is linked properly so it should just work
-   
+
+2.	Change current working directory to **labs/day0** inside the cloned repository:
+
+```sh
+cd se-summit-23/qwiklabs-fgt-terraform-lab/labs/day0
+```
+3. In the **Cloud Shell Editor** part of your Cloud Shell tab choose **File > Open** from the top menu and open the **qwiklabs-fgt-terraform/labs** folder. Cloud Shell Editor will be useful to navigate, review and edit terraform code during this lab.
+
+![Cloud Editor open folder dialog](https://raw.githubusercontent.com/fortidg/se-summit-23/main/qwiklabs-fgt-terraform-lab/instructions/img/ide-open-folder.png)
+
+For the Terraform, each directory containing **.tf** files is a module. A directory in which you run terraform command is the *root module* and can contain *submodules*. In this lab you will deploy two root modules: **day0** and **dayN** with each of them containing submodules. The module structure of **labs** in the cloned **qwiklabs-fgt-terraform** repository looks as follows:
+
+- **labs/day0**
+    - **fgcp-ha-ap-lb**
+    - **sample-networks**
+- **labs/dayN**
+    - **app-infra**
+    - **secure-inbound**
+- **webapp** (does not contain terraform code)
