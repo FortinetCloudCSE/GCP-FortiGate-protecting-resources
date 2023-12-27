@@ -2,7 +2,7 @@
 title: "Clone Repo"
 menuTitle: "Clone Repo"
 chapter: false
-weight: 50
+weight: 1
 ---
 
 ### Clone github repository
