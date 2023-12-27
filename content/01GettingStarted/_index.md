@@ -19,7 +19,9 @@ Provisioning can take several minutes.
 
 \*\*\* __PLEASE DO NOT SUBMIT MULTIPLE TIMES__ \*\*\*  {{< /notice >}}
 
-When provisioning is complete, You will recieve and email from  **fortinetsecdevops@gmail.com** titled "GCP TEC Workshop".  
+When provisioning is complete, You will recieve and email from  **fortinetsecdevops@gmail.com** titled "GCP TEC Workshop".
+
+Please contact **dgooch@fortinet.com** if you do not recieve the email. 
 
 
 

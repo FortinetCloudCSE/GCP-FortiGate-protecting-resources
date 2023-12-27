@@ -10,5 +10,10 @@ This Class will be focused on deployment and configuration of FortiGate in GCP. 
 
 To complete this lab, you need:
 
+* A gcp account set up by **mis@fortinet.com** based on your Fortinet email address.
 * Access to a standard internet browser (Chrome browser recommended).  
-* Time to complete the lab---remember, once the lab is started you will have 24 hours to complete the work.  This lab takes an average of 2 to 4 hours to complete.
+* Time to complete the lab---remember, once the lab is started you will have 24 hours to complete the work.  This lab takes an average of 2 to 4 hours to complete and cannot be repeated within 30 days.
+
+Once Completed, the lab build will be similar to the Diagram Below"
+
+![full-network-diagram](full-network-diagram.png)
