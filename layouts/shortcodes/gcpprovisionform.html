@@ -2,7 +2,7 @@
     function formSubmit() {
       var useremail = document.getElementById("useremail").value;
       var postdata =
-        "email=" + useremail + "&workshop=cfos-gke";
+        "email=" + useremail + "&workshop=gcp-fortigate";
   
       var xhr = new XMLHttpRequest();
       xhr.open(
@@ -32,6 +32,6 @@
   <form id="provision-lab" onsubmit="return formSubmit();">
     <label for="useremail">Please enter your email address</label>
     <input type="email" id="useremail" name="useremail" value="" />
-    <input type="submit" value="Provision" />
+    <input type="submit" value="provision" />
   </form>
   
