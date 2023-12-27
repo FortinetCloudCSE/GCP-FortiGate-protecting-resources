@@ -2,7 +2,7 @@
 title: "Task 5 - FortiGate Routing"
 menuTitle: "FortiGate Routing"
 chapter: false
-weight: 4
+weight: 5
 ---
 
 ### Configure Routing in FortiGate
