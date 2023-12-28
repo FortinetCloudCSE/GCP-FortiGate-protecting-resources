@@ -5,9 +5,7 @@ menuTitle: "Ch 4: VPC Peering"
 weight: 30
 ---
 
-### ***Configure VPC Peering to insert Security Services***
-
-{{% notice note %}}Google Cloud VPC Network Peering connects two Virtual Private Cloud (VPC) networks so that resources in each network can communicate with each other {{% /notice %}}
+### Google Cloud VPC Network Peering connects two Virtual Private Cloud (VPC) networks
 
 #### Benefits of VPC Network Peering
 
@@ -21,9 +19,8 @@ https://cloud.google.com/vpc/docs/vpc-peering
 #### Overview
 This lab is intended to Create/Configure VPC Peering between two Virtual Private Cloud (VPC) networks and secure the workloads by routing the traffic through FortiGate(Hub).
 
-***All terraform needs to be run in Project One for this lab***
 
-##### Objectives
+#### Objectives
 In this lab you will:
 
 - Create/Configure VPC peering between "Internal/Private/Trust VPC Network of FortiGate's Cluster" and "Web Server VPC Network". 
