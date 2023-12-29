@@ -36,4 +36,6 @@ weight: 2
 1. The **Deployment Manager** screen pops up next.  Make note of the Admin URL and Temporary Admin password.
     ![fortigate-temp-pw](fortigate-temp-pw.png)
 
-{{% notice note %}} We used ephemeral for the Public IP of the FortiGate on the untrust NIC.  This means that the IP address could change when the FortiGate is rebooted.  To avoid this, you can go to **VPC network** > **IP addresses** and **RESERVE EXTERNAL STATIC ADDRESS** {{% /notice %}} 
+{{% notice note %}} We used ephemeral for the Public IP of the FortiGate on the untrust NIC.  This means that the IP address could change when the FortiGate is rebooted.  To avoid this, you can go to **VPC network** > **IP addresses** and **RESERVE EXTERNAL STATIC ADDRESS** {{% /notice %}}
+
+{{% notice alert %}} For **step 6** above, we could have enabled the other required APIs in Chapter 1, but It is useful to see that the GCP console offers users interactive help to navigate requirements. {{% /notice %}}

@@ -29,6 +29,5 @@ Please contact **dgooch@fortinet.com** if you do not recieve the email.
 
 Tasks
 
-* Validate Project
-* Setup Google Cloud Shell
-* Clone Repos
+* Login to Project
+* Enable Compute Engine API

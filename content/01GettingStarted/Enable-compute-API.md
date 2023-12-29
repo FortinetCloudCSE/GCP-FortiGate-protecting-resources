@@ -1,10 +1,12 @@
 ---
-title: "Task 2 - Compute Engine API "
+title: "Task 1 - Compute Engine API "
 menuTitle: "Enable API"
 weight: 5
 ---
 
 ## Task 2 Enable Compute Engine API
+
+Using the link from the email, login to the GCP console using your Fortinet AD Credentials.
 
 - As this project is newly built, you will need to enable the Compute Engine API.  There are two methods to accomplish this:
   - Using Cloud Shell:
