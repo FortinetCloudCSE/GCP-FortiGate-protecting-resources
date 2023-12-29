@@ -14,12 +14,10 @@ weight: 3
 1. Choose an appropriate name for the VM.
 1. Under **Boot disk** select **CHANGE**
 1. In the pop up select options as pictured below .Use **x86/amd** image
-
     ![ubuntu-image](ubuntu-image.png)
 1. Click the down arrow to expand **Advanced options**.
 1. Click the down arrow to expand **Networking**
-1. Under **Network interface**, click the down arrow to expand **default** and change the network settings as follows.  Note that  we are **NOT** assigning an External IP address for this instance.
-
+1. Under **Network interface**, ensure that the Network and Subnetwork are configured as belowNote that  we are **NOT** assigning an External IP address for this instance.
     ![ubuntu-nic](ubuntu-nic.png)
 1. Click the down arrow to expand **Management**
 1. Under **Automation** paste the below text into the "Startup script" box.

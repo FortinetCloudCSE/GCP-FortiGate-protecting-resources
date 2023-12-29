@@ -12,7 +12,7 @@ weight: 1
 
     ![VPC-Network-left-pane](VPC-Network-left-pane.png)
 
-* At the top of the screen, click on **CREATE "untrust" VPC NETWORK**
+* At the top of the screen, click on **CREATE VPC NETWORK**
 
 * Input all fields as directed below.
   
@@ -21,7 +21,7 @@ weight: 1
 1. For "Name" use "untrust"
 1. For "Subnet Creation Mode", **Custom** is selected.
 1. Under **New Subnet** name the subnet **untrust-1** and select **us-central1** region from Dropdown
-1. Under **New Subnet** type "192.168.128.0/25" and select **Done**.
+1. Under **New Subnet** type **192.168.128.0/25** and select **Done**.
     ![untrust-1-subnet](untrust-1-subnet.png)
 1. Under **Firewall Rules** select **untrust-allow-custom** and click on **EDIT** to the right of the rule.
 1. This will cause a pop up.  

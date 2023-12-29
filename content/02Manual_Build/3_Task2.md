@@ -18,17 +18,21 @@ weight: 2
 1. On the left side of the screen, click **Marketplace**
 1. In the pop up, type FortiGate in the search bar and select the **FortiGate Next-Generation Firewall (PAYG)** option.
     ![marketplace](marketplace.png)
-1. In the next pop up, choose **Launch**
-    ![launch-fgt](launch-fgt.png)
+1. In the next pop up, choose **GET Started**
+    ![get-started](get-started.png)
+1. You will be re-directed to the Agreements screen.  **Check  the box under Terms and agreements** and then click the **AGREE** button
+    ![agree-terms](agree-terms.png)
+1. This will cause a popup indicating thay you have successfully agreed to the terms.  Click **Deploy**
+    ![agree-success](agree-success.png)
+1. You will then get another popup describing other APIs that need to be enabled.  On the bottom left of the popup, select **ENABLE**
+    ![en-new-api](en-new-api.png)
+1. Now you will be re-directed to the **New FortiGate Next-Generation Firewall (PAYG) deployment** screen  Any setting, not explicitly listed for change below will left as **default**
 1. In the Image Version dropdown under **FortiGate (PayG)** select 7.2.6
-1. Under **Networking** > **Network interfaces** click on the down arrow next to default.
-    ![default-fgt-int](default-fgt-int.png)
-1. Configure the Network as follows and Click **Done**.
+1. Under **Networking** > **Network interfaces** click on the down arrow and set the first interface as below and then click **Done**
     ![untrust-nic](untrust-nic.png)
 1. Under **Networking** > **Network interfaces** click on **ADD NETWORK INTERFACE** and configure as follows.
     ![console13](trust-nic-det.png)
-1. At the bottom, check box to accept terms and then click **DEPLOY**.
-    ![accept-deploy](accept-deploy.png)
+1. Scroll to the bottom and then click **DEPLOY**.
 1. The **Deployment Manager** screen pops up next.  Make note of the Admin URL and Temporary Admin password.
     ![fortigate-temp-pw](fortigate-temp-pw.png)
 
