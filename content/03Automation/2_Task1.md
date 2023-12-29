@@ -22,9 +22,20 @@ All code for this lab is hosted in a public git repository. To use it start by c
 ```sh
 cd se-summit-23/qwiklabs-fgt-terraform-lab/labs/day0
 ```
-3. In the **Cloud Shell Editor** part of your Cloud Shell tab choose **File > Open** from the top menu and open the **qwiklabs-fgt-terraform/labs** folder. Cloud Shell Editor will be useful to navigate, review and edit terraform code during this lab.
+3. If Using the **Legacy Editor**, choose **File > Open** from the top menu and open the **qwiklabs-fgt-terraform/labs** folder. Cloud Shell Editor will be useful to navigate, review and edit terraform code during this lab.
 
 ![ide-open-folder](ide-open-folder.png)
+
+4. If Using the **New Editor**, choose **File > Open Folder** from the top menu.  In the Open Folder window enter the below command
+
+```sh
+/home/dgooch/se-summit-23/qwiklabs-fgt-terraform-lab/labs/
+
+```
+5. You will then be able to navigate and edit files in the folder
+
+![new-editor](new-editor.png)
+
 
 For the Terraform, each directory containing **.tf** files is a module. A directory in which you run terraform command is the *root module* and can contain *submodules*. In this lab you will deploy two root modules: **day0** and **dayN** with each of them containing submodules. The module structure of **labs** in the cloned **qwiklabs-fgt-terraform** repository looks as follows:
 
