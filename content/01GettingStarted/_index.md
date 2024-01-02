@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1 - Getting Started"
+title: "Ch 1: - Getting Started"
 weight: 1
 weight: 10
 ---

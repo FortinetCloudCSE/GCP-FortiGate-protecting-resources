@@ -10,7 +10,7 @@ Using the link from the email, login to the GCP console using your Fortinet AD C
 
 - As this project is newly built, you will need to enable several different APIs.  There are two methods to accomplish this:
 
-  - **Using the Console** we will enable the Compute Engine API: 
+  - **Using the Console** we will enable the **Compute Engine API**: 
       - From the original GCP Console, click the "hamburger" menu on the top left of the screen, select **Compute Engine > VM instances**
       ![CE_hamburger](CE_hamburger.png)
       - This will take you to a screen where you can enable the Compute Engine API.  Select **Enable**
