@@ -10,10 +10,9 @@ weight: 2
 ### Customizing deployment through variables
 Before deploying the **vpc-peering** module you have an opportunity to customize it. The module expects an input variable indicating the region to use.
 
-As this lab is restricted to use us-central1 region, provide name the region in the **vpc-peering/terraform.tfvars** file:
-`region = "us-central1"`
+Open **vpc-peering/terraform.tfvars** file:
 
-You also have to indicate the GCP project to deploy to by setting `project` variable in **vpc-peering/terraform.tfvars** to the name of your qwiklabs project indicated as **GCP Project ID** in the **Lab Details** panel. 
+You have to indicate the GCP project to deploy to by setting `project` variable in **vpc-peering/terraform.tfvars** to the name of your qwiklabs project indicated as **GCP Project ID** in the **Lab Details** panel. 
 
 ### Web Server deployment
 Web Server deployment consists of 3 steps. Execute them now as described below:
