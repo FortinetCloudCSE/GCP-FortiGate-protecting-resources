@@ -47,4 +47,4 @@ After `terraform apply` command completes you will see several output values whi
 
 ### Reviewing the deployment
 Once everything is deployed you can see the sample page of the Web Server when you enter the External IP of the Compute Engine Instance.
-{{% notice note %}} It is recommended not to have an External IP for this Web Server. {{% /notice %}}
+{{% notice note %}} In a production environment, it is recommended that an External IP address for a web server be locked down to specific hosts and/or protected by a Web application firewall such as FortiWeb.  For the purpose of this lab, the public IP is left in place for troubleshooting. {{% /notice %}}

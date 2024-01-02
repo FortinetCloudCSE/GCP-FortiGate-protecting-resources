@@ -14,13 +14,13 @@ All code for this lab is hosted in a public git repository. To use it start by c
 1.	Run the following command in your Cloud Shell to clone the git repository contents:
 
 ```sh
-    git clone https://github.com/fortidg/se-summit-23.git
+    git clone https://github.com/FortinetCloudCSE/GCP-supporting-resources.git
 ```
 
 2.	Change current working directory to **labs/day0** inside the cloned repository:
 
 ```sh
-cd se-summit-23/qwiklabs-fgt-terraform-lab/labs/day0
+cd GCP-supporting-resources/automation-A_P/labs/day0
 ```
 3. If Using the **Legacy Editor**, choose **File > Open** from the top menu and open the **qwiklabs-fgt-terraform/labs** folder. Cloud Shell Editor will be useful to navigate, review and edit terraform code during this lab.
 
@@ -29,7 +29,7 @@ cd se-summit-23/qwiklabs-fgt-terraform-lab/labs/day0
 4. If Using the **New Editor**, choose **File > Open Folder** from the top menu.  In the Open Folder window enter the below command
 
 ```sh
-/home/dgooch/se-summit-23/qwiklabs-fgt-terraform-lab/labs/
+/home/dgooch/GCP-supporting-resources/automation-A_P/labs/
 
 ```
 5. You will then be able to navigate and edit files in the folder

@@ -1,10 +1,10 @@
 ---
 title: "Task 1 - Compute Engine API "
-menuTitle: "Enable API"
+menuTitle: "Enable APIs"
 weight: 5
 ---
 
-## Task 2 Enable Compute Engine API
+## Task 2 Enable Compute Engine APIs
 
 Using the link from the email, login to the GCP console using your Fortinet AD Credentials.
 
@@ -21,7 +21,7 @@ Using the link from the email, login to the GCP console using your Fortinet AD C
       - On the top right hand side of the screen, click on the Activate Cloud Shell icon 
       ![en-shell](en-shell.png)
 
-      - This will open a cloud shell at the bottom of the screen.  You will need to be sure that you are in the correct project using the below command:
+      - This will open a cloud shell at the bottom of the screen.  You will need to be sure that you are in the correct project using the below command (authorize as necessary):
 
       ```
       gcloud config set project <project-id>
