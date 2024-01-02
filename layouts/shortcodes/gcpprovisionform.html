@@ -1,0 +1,37 @@
+<script>
+    function formSubmit() {
+      var useremail = document.getElementById("useremail").value;
+      var postdata =
+        "email=" + useremail + "&workshop=gcp-fortigate";
+  
+      var xhr = new XMLHttpRequest();
+      xhr.open(
+        "POST",
+        "https://us-central1-cse-us-341516.cloudfunctions.net/gcp-account-provision",
+        true
+      );
+      xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      xhr.setRequestHeader("Access-Control-Allow-Methods", "*");
+      xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+      xhr.setRequestHeader("Access-Control-Allow-Headers", "*");
+      xhr.send(postdata);
+  
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          console.log('xhr.responseText : ' + xhr.responseText);
+        }
+      };
+      xhr.onload = function () {
+        console.log(xhr.responseText);
+      };
+      document.getElementById("useremail").setAttribute('value', 'Provisioning Started... An email will be sent to the provided address with status');
+      return false;
+    }
+  </script>
+  
+  <form id="provision-lab" onsubmit="return formSubmit();">
+    <label for="useremail">Please enter your email address</label>
+    <input type="email" id="useremail" name="useremail" value="" />
+    <input type="submit" value="provision" />
+  </form>
+  
