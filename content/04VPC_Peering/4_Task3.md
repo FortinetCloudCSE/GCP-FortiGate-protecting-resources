@@ -7,7 +7,7 @@ weight: 3
 
 ### configure VPC Peering between the "Internal/Private/Trust VPC Network" with the "Web Server VPC Network"
 
-efore creating peerings go back and review the routing. Any new VPC Network is created with a default route via default internet gateway. As you will be creating a peering between the web server VPC and the FortiGate VPC, the desired routing is via FortiGate. To avoid routing conflict you must delete the automatically created default route.
+Before creating peerings go back and review the routing. Any new VPC Network is created with a default route via default internet gateway. As you will be creating a peering between the web server VPC and the FortiGate VPC, the desired routing is via FortiGate. To avoid routing conflict you must delete the automatically created default route.
 
 1. Open the VPC network details page for "qwiklabs-webserver-public-vpc" 
 2. Click the "ROUTES" tab. In the Region drop down, select "us-central1" and click **VIEW**

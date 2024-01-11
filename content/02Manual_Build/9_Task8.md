@@ -15,7 +15,7 @@ weight: 8
   <details>
   <summary> Click Here for <b>Answer</b> </summary>
   <ul>
-    <li> **False** - VMs can only have a single interface per VPC Network. </li>
+    <li> <b>False</b> - VMs can only have a single interface per VPC Network. </li>
   </ul>
   </details>
 
@@ -26,7 +26,7 @@ weight: 8
   <details>
   <summary> Click Here for <b>Answer</b> </summary>
   <ul>
-    <li> **False** - By default.  Ephemeral External IP Addresses are assigned to vNICs in GCP.  In order to have Public IP persist across reloads you must Reserve an External Static IP Address.   </li>
+    <li> <b>False</b> - By default.  Ephemeral External IP Addresses are assigned to vNICs in GCP.  In order to have Public IP persist across reloads you must Reserve an External Static IP Address.   </li>
   </ul>
   </details>
 
