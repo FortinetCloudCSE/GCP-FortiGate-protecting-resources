@@ -1,6 +1,6 @@
 ---
 title: "Task 2 - Deploying FortiGate cluster"
-menuTitle: "Deploy Cluster"
+menuTitle: "Task 2 - Deploy Cluster"
 chapter: false
 weight: 2
 ---

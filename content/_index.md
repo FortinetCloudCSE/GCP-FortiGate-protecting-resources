@@ -1,5 +1,5 @@
 ---
-title: "GCP - FortiGate Protecting Resources"
+title: "GCP - TEC FortiGate Protecting Resources"
 menuTitle: "TECWorkshop Template"
 weight: 1
 archetype: home

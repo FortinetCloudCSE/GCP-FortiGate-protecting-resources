@@ -1,6 +1,6 @@
 ---
 title: "Clone Repo"
-menuTitle: "Clone Repo"
+menuTitle: "Task 1 - Clone Repo"
 chapter: false
 weight: 1
 ---

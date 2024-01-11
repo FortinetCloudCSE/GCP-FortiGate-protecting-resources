@@ -1,6 +1,6 @@
 ---
 title: "Task 5 - FortiGate Routing"
-menuTitle: "FortiGate Routing"
+menuTitle: "Task 5 - FortiGate Routing"
 chapter: false
 weight: 5
 ---

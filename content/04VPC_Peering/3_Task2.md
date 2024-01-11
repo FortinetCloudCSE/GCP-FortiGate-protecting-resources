@@ -1,6 +1,6 @@
 ---
 title: "Deploy Network and Server"
-menuTitle: "Deploy Server"
+menuTitle: "Task 2 - Deploy Server"
 chapter: false
 weight: 2
 ---

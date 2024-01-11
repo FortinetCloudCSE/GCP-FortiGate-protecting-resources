@@ -1,6 +1,6 @@
 ---
 title: "Change Directory and Open Editor"
-menuTitle: "Change Repo Directory"
+menuTitle: "Task 1 - Change Repo Directory"
 chapter: false
 weight: 1
 ---

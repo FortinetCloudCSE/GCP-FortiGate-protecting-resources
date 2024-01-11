@@ -1,6 +1,6 @@
 ---
 title: "SLA monitoring"
-menuTitle: "SLA monitoring"
+menuTitle: "Task 8 - SLA monitoring"
 chapter: false
 weight: 8
 ---

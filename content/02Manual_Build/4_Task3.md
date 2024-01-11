@@ -1,6 +1,6 @@
 ---
 title: "Task 3 - Create Ubuntu VM"
-menuTitle: "Ubuntu"
+menuTitle: "Task 3 - Ubuntu"
 chapter: false
 weight: 3
 ---

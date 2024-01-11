@@ -1,6 +1,6 @@
 ---
 title: "Task 6 - Trust to Internet"
-menuTitle: "Trust to Internet"
+menuTitle: "Task 6 - Trust to Internet"
 chapter: false
 weight: 6
 ---

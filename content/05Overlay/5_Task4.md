@@ -1,6 +1,6 @@
 ---
 title: "Remote IPsec"
-menuTitle: "Remote IPsec"
+menuTitle: "Task 4 - Remote IPsec"
 chapter: false
 weight: 4
 ---
