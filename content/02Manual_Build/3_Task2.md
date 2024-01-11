@@ -1,6 +1,6 @@
 ---
 title: "Task 2 - Create FortiGate VM"
-menuTitle: "FortiGate"
+menuTitle: "Task 2 - FortiGate"
 chapter: false
 weight: 2
 ---

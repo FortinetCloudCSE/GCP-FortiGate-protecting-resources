@@ -1,6 +1,6 @@
 ---
 title: "SD-WAN Rules"
-menuTitle: "SD-WAN Rules"
+menuTitle: "Task 9 - SD-WAN Rules"
 chapter: false
 weight: 9
 ---

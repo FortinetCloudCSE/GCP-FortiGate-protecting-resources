@@ -1,6 +1,6 @@
 ---
 title: "Remote BGP"
-menuTitle: "Remote BGP"
+menuTitle: "Task 6 - Remote BGP"
 chapter: false
 weight: 6
 ---

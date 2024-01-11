@@ -1,6 +1,6 @@
 ---
 title: "Task 1 - Compute Engine API "
-menuTitle: "Enable APIs"
+menuTitle: "Task 1 - Enable APIs"
 weight: 5
 ---
 

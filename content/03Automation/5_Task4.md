@@ -1,6 +1,6 @@
 ---
 title: "Task 4 - Configuration drift"
-menuTitle: "Configuration drift"
+menuTitle: "Task 4 - Configuration drift"
 chapter: false
 weight: 4
 ---

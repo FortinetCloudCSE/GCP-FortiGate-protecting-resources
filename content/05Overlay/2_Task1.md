@@ -1,6 +1,6 @@
 ---
 title: "Network Load Balancer"
-menuTitle: "Network Load Balancer"
+menuTitle: "Task 1 - Network Load Balancer"
 chapter: false
 weight: 1
 ---

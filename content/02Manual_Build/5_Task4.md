@@ -1,6 +1,6 @@
 ---
 title: "Task 4 - GCP Routing"
-menuTitle: "GCP Routing"
+menuTitle: "Task 4 - GCP Routing"
 chapter: false
 weight: 4
 ---

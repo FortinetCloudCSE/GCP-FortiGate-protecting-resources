@@ -1,6 +1,6 @@
 ---
 title: "On-Ramp IPsec"
-menuTitle: "On-Ramp IPsec"
+menuTitle: "Task 2 - On-Ramp IPsec"
 chapter: false
 weight: 2
 ---

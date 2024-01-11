@@ -1,6 +1,6 @@
 ---
 title: "Task 1 - Create VPC Networks"
-menuTitle: "Networks"
+menuTitle: "Task1 - Networks"
 weight: 1
 ---
 

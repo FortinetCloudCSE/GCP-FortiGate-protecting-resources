@@ -1,6 +1,6 @@
 ---
 title: "SDWAN Interface"
-menuTitle: "SDWAN Interface"
+menuTitle: "Task 7 - SDWAN Interface"
 chapter: false
 weight: 7
 ---

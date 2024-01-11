@@ -1,6 +1,6 @@
 ---
 title: "Add FortiGate Static route"
-menuTitle: "FortiGate Routing"
+menuTitle: "Task 4 - FortiGate Routing"
 chapter: false
 weight: 4
 ---

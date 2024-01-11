@@ -1,6 +1,6 @@
 ---
 title: "Task 7 - VIP and Policy"
-menuTitle: "VIP"
+menuTitle: "Task 7 - VIP"
 chapter: false
 weight: 7
 ---

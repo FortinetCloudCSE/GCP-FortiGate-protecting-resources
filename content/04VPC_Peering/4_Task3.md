@@ -1,6 +1,6 @@
 ---
 title: "Create VPC Peering"
-menuTitle: "VPC Peering"
+menuTitle: "Task 3 - VPC Peering"
 chapter: false
 weight: 3
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Task 3 - Deploying demo application"
-menuTitle: "Deploy Application"
+menuTitle: "Task 3 - Deploy Application"
 chapter: false
 weight: 3
 ---
