@@ -1,0 +1,31 @@
+{
+    "repoName": "UserRepo",
+    "author": "Jeff Kopko",
+    "workshopTitle": "Hugo for Fortinet TECWorkshops",
+    "themeVariant": "Workshop",
+    "logoBannerText": "",
+    "logoBannerSubText": "GCP - TEC FortiGate Protecting Resources",
+    "errorLevel": "warning",
+    "googleServicesID": "G-5RZBH288ST",
+    "marketingCode": "FortiHugo202",
+    "shortcuts": [
+        {
+            "text": "Fortinet Cloud CSE GitHub Org",
+            "URL": "https://github.com/FortinetCloudCSE",
+            "icon": "fa-tools",
+            "weight": 1
+        },
+        {
+            "text": "Fortinet GCP Docs",
+            "URL": "https://docs.fortinet.com/cloud-solutions/gc",
+            "icon": "fa-tools",
+            "weight": 11
+        },
+        {
+            "text": "Fortinet Google Cloud Security",
+            "URL": "https://www.fortinet.com/products/public-cloud-security/gcp",
+            "icon": "fa-tools",
+            "weight": 21
+        }
+    ]
+}
