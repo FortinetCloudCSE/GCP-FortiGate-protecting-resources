@@ -1,6 +1,5 @@
 ---
 title: "Ch 1: - Getting Started"
-weight: 1
 weight: 10
 ---
 
